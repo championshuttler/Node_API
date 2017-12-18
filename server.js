@@ -1,10 +1,11 @@
-const express     = require('express');
+const express = require('express');
 const MongoClient = require('mongodb').MongoClient;
-const bodyParser  = require('body-parser');
+const bodyParser = require('body-parser');
+require
 
 const app = express();
 
 const port = 8000;
 app.listen(port, () => {
-  console.log("championshuttler this side :P");
+    console.log("this side :P");
 })
